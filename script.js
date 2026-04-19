@@ -1,3 +1,7 @@
+
+
+
+
 const textEl = document.getElementById("changingText");
 
 const texts = [
@@ -164,11 +168,12 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 
+
 document.addEventListener("DOMContentLoaded", function(){
 
-  const elements = document.querySelectorAll(".animate-left");
+  const elements = document.querySelectorAll(".animate-left, .animate-right");
 
-  function revealLeft(){
+  function reveal(){
     const trigger = window.innerHeight * 0.85;
 
     elements.forEach(el => {
@@ -180,7 +185,22 @@ document.addEventListener("DOMContentLoaded", function(){
     });
   }
 
-  window.addEventListener("scroll", revealLeft);
-  revealLeft();
+  window.addEventListener("scroll", reveal);
+  reveal();
 
+});
+
+
+
+
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+const closeMenu = document.getElementById("closeMenu");
+
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.add("active");
+});
+
+closeMenu.addEventListener("click", () => {
+  mobileMenu.classList.remove("active");
 });

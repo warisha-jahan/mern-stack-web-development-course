@@ -1,0 +1,269 @@
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+
+
+    /* HEADER */
+    header nav {
+        display: none;
+    }
+
+    .cta {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    /* MOBILE MENU */
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100vh;
+        background: white;
+        z-index: 9999;
+        padding: 20px;
+        transition: 0.4s;
+    }
+
+    .mobile-menu.active {
+        left: 0;
+    }
+
+    .mobile-menu .cta {
+        display: inline-block;
+        background-color: black;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .mobile-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .mobile-top .logo {
+        color: black;
+    }
+
+    .close-menu {
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mobile-nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    /* HERO */
+    .hero-container {
+        height: auto;
+        clip-path: none;
+        padding-bottom: 50px;
+    }
+
+    #hero_section {
+        width: 100%;
+        padding: 20px;
+        height: 80vh;
+    }
+
+    #hero_section h1 {
+        font-size: 58px;
+    }
+
+    /* COURSE GRID */
+
+    #course-outline {
+        padding: 30px 15px;
+        margin-top: 50px;
+    }
+
+
+
+    #course-outline div {
+        margin-bottom: 25px;
+    }
+
+    #course-outline h2 {
+        margin-top: 10px;
+    }
+
+    #courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+
+    .course-box {
+        transform: none !important;
+        width: 400px; 
+        height: 200px;
+    }
+
+    /* WHY SECTION */
+    #why-choose-container {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 15px;
+        /* text-align: center; */
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .left img {
+        position: static;
+        width: 100%;
+        transform: none;
+    }
+
+    .element1 {
+        display: none;
+    }
+
+    .content-element {
+        position: static;
+        margin-bottom: 0 auto 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .right {
+        padding: 20px 10px;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+    .right h2 {
+        font-size: 28px;
+    }
+
+    /* COURSE DETAILS */
+    #course-details {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    #course-details div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .detail-box {
+        width: 150px;
+        height: 150px;
+        font-size: 14px;
+    }
+
+    /* URGENCY */
+    #urgency-section h1 {
+        font-size: 30px;
+    }
+
+    /* FAQ */
+    #faq-section {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .faq-container {
+        flex-direction: column;
+    }
+
+    .accordion-item {
+        margin-top: 25px;
+    }
+
+    /* INSTRUCTOR */
+    #Instructor-section {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .title {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #Instructor-section img {
+        position: static;
+        width: 100%;
+    }
+
+    .content-card {
+        position: static;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* TESTIMONIAL */
+    .slider-wrapper {
+        width: 100%;
+    }
+
+    .card {
+        min-width: 100%;
+    }
+
+    /* CERT SECTION */
+    .cert-cta-section {
+        flex-direction: column-reverse;
+        padding: 40px 20px;
+        /* margin-bottom: 25px; */
+    }
+
+
+    .simple-footer {
+        padding: 30px 20px;
+        margin-top: 50px;
+    }
+
+
+    h1 {
+        font-size: 28px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+}

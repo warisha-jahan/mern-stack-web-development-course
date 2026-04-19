@@ -13,25 +13,53 @@
 
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 
 <body>
     <div class="hero-container">
         <header>
-            <div class="logo">DevSkills</div>
+            <div class="logo animate-left"><img src="pictures/logo.png" alt=""></div>
 
             <nav>
-                <a href="#hero_section">Home</a>
-                <a href="#course-outline">Outline</a>
-                <a href="#course-details">Course Details</a>
-                <a href="#faq-section">Students Guide</a>
-                <a href="#Instructor-section">Instructor</a>
+                <a href="#hero_section" class="animated_heading">Home</a>
+                <a href="#course-outline " class="animated_heading">Outline</a>
+                <a href="#course-details" class="animated_heading">Course Details</a>
+                <a href="#faq-section" class="animated_heading">Students Guide</a>
+                <a href="#Instructor-section" class="animated_heading">Instructor</a>
                 <!-- <a href="#cert-cta-section">Certification</a> -->
 
             </nav>
 
-            <a href=""><button class="cta">Watch Demo </button></a>
+            <a href=""><button class="cta animate-right">Watch Demo </button></a>
+
+
+
+            <!-- 🔥 HAMBURGER ADD -->
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!-- 🔥 MOBILE MENU -->
+            <div class="mobile-menu" id="mobileMenu">
+                <div class="mobile-top">
+                    <div class="logo">DevSkills</div>
+                    <i class="fa-solid fa-xmark close-menu" id="closeMenu"></i>
+                </div>
+
+                <nav class="mobile-nav">
+                    <a href="#hero_section">Home</a>
+                    <a href="#course-outline">Outline</a>
+                    <a href="#course-details">Course Details</a>
+                    <a href="#faq-section">Students Guide</a>
+                    <a href="#Instructor-section">Instructor</a>
+                </nav>
+                 <a href=""><button class="cta animate-right">Watch Demo </button></a>
+            </div>
+
+            
 
         </header>
 
@@ -43,7 +71,7 @@
     </div>
 
     <section id="course-outline">
-        <div>
+        <div style="margin-bottom: 50px;">
             <button>Course Outline</button>
             <h2 class="animated_heading">What You Will Learn in <br>MERN Stack Development Course?</h2>
             <h4 class="animate-left"">Become a full-stack web developer by mastering frontend + backend technologies</h4>
@@ -51,48 +79,48 @@
 
         <div id="courses">
 
-            <div class="course-box course1">
-                <h2>HTML 5</h2>
-                <p>Learn the structure of modern websites</p>
-            </div>
+                <div class="course-box course1">
+                    <h2>HTML 5</h2>
+                    <p>Learn the structure of modern websites</p>
+                </div>
 
-            <div class="course-box course2">
-                <h2>CSS 3</h2>
-                <p>Create modern, responsive, and visually appealing UI designs that work smoothly across all screen
-                    sizes</p>
-            </div>
-            <div class="course-box course3 ">
-                <h2>JavaScript</h2>
-                <p>Build dynamic, interactive, and user-friendly websites with real-time features and smooth
-                    functionality
-                </p>
-            </div>
+                <div class="course-box course2">
+                    <h2>CSS 3</h2>
+                    <p>Create modern, responsive, and visually appealing UI designs that work smoothly across all screen
+                        sizes</p>
+                </div>
+                <div class="course-box course3 ">
+                    <h2>JavaScript</h2>
+                    <p>Build dynamic, interactive, and user-friendly websites with real-time features and smooth
+                        functionality
+                    </p>
+                </div>
 
-            <div class="course-box course4">
-                <h2>React.js</h2>
-                <p>Build modern and fast frontend applications</p>
-            </div>
-            <div class="course-box course5">
-                <h2>Node.js</h2>
-                <p>Create powerful backend server-side applications</p>
-            </div>
-            <div class="course-box course6">
-                <h2>Express.js</h2>
-                <p>Build REST APIs and handle server logic</p>
-            </div>
-            <div class="course-box course7">
-                <h2>MongoDB</h2>
-                <p>Store and manage data in NoSQL database</p>
-            </div>
-            <div class="course-box course8">
-                <h2>Git & GitHub</h2>
-                <p>Version control and professional project management</p>
-            </div>
+                <div class="course-box course4">
+                    <h2>React.js</h2>
+                    <p>Build modern and fast frontend applications</p>
+                </div>
+                <div class="course-box course5">
+                    <h2>Node.js</h2>
+                    <p>Create powerful backend server-side applications</p>
+                </div>
+                <div class="course-box course6">
+                    <h2>Express.js</h2>
+                    <p>Build REST APIs and handle server logic</p>
+                </div>
+                <div class="course-box course7">
+                    <h2>MongoDB</h2>
+                    <p>Store and manage data in NoSQL database</p>
+                </div>
+                <div class="course-box course8">
+                    <h2>Git & GitHub</h2>
+                    <p>Version control and professional project management</p>
+                </div>
 
-            <div class="course-box course9">
-                <h2>Freelancing (Bonus)</h2>
-                <p>Learn how to get clients </p>
-            </div>
+                <div class="course-box course9">
+                    <h2>Freelancing (Bonus)</h2>
+                    <p>Learn how to get clients </p>
+                </div>
 
 
 
@@ -112,19 +140,20 @@
                 <h3 class="animate-left"">Number Of Students I Trained </h3>
                 <span>100+</span>
             </div>
-            <img src="pictures/warisha3.png" alt="">
-        </div>
+            <img src=" pictures/warisha3.png" alt="">
+            </div>
 
 
-        <div class="right">
-            <span class="animated_heading">Why Choose This Course? </span>
-            <h2 class="animated_heading">Learn Skills That Actually Help You Earn Online</h2>
-            <p>This course is specially designed for beginners who want to learn web development in a simple and
-                practical way. Everything is explained in easy Urdu so you can understand without confusion. You will
-                work on real projects to gain hands-on experience, and also learn how to start freelancing and earn
-                online. Step by step, this course will take you from beginner to an advanced level.</p>
-            <button onclick="studentsGuide()" class="animate-left">View More Details </button>
-        </div>
+            <div class="right">
+                <span>Why Choose This Course? </span>
+                <h2 class="animated_heading">Learn Skills That Actually Help You Earn Online</h2>
+                <p>This course is specially designed for beginners who want to learn web development in a simple and
+                    practical way. Everything is explained in easy Urdu so you can understand without confusion. You
+                    will
+                    work on real projects to gain hands-on experience, and also learn how to start freelancing and earn
+                    online. Step by step, this course will take you from beginner to an advanced level.</p>
+                <button onclick="studentsGuide()" class="animate-left">View More Details </button>
+            </div>
     </section>
 
 
@@ -206,9 +235,9 @@
                 </p>
 
                 <div class="accordion-item animate-left"">
-                    <button class="accordion-btn">What is the course fee?</button>
+                    <button class=" accordion-btn">What is the course fee?</button>
                     <div class="accordion-content">
-                        <p >The total course fee is 5000/- (one time payment). You do not need to pay again.</p>
+                        <p>The total course fee is 5000/- (one time payment). You do not need to pay again.</p>
                     </div>
                 </div>
 
@@ -241,35 +270,35 @@
 
             <div class="faq-right">
 
-                <div class="accordion-item">
+                <div class="accordion-item animate-right">
                     <button class="accordion-btn">What is the course duration?</button>
                     <div class="accordion-content">
                         <p>The course duration is 1 year.</p>
                     </div>
                 </div>
 
-                <div class="accordion-item">
+                <div class="accordion-item animate-right">
                     <button class="accordion-btn">What is the class mode?</button>
                     <div class="accordion-content">
                         <p>Classes are conducted online.</p>
                     </div>
                 </div>
 
-                <div class="accordion-item">
+                <div class="accordion-item animate-right">
                     <button class="accordion-btn">How many classes per week?</button>
                     <div class="accordion-content">
                         <p>There are 4–5 classes per week.</p>
                     </div>
                 </div>
 
-                <div class="accordion-item">
+                <div class="accordion-item animate-right">
                     <button class="accordion-btn">How will I get access?</button>
                     <div class="accordion-content">
                         <p>You will get access via website or Google Drive.</p>
                     </div>
                 </div>
 
-                <div class="accordion-item">
+                <div class="accordion-item animate-right">
                     <button class="accordion-btn">Will classes be recorded?</button>
                     <div class="accordion-content">
                         <p>Yes, all classes will be recorded. You can watch them anytime for flexibility and to avoid
@@ -286,7 +315,7 @@
 
     <section id="Instructor-section">
         <div class="title animated_heading">WARISHA MJ</div>
-        <img src="pictures/warisha2.png" alt="">
+        <img src="pictures/warisha2.png" alt="" class="animate-right ">
         <div class="content-card content-card1 animate-left">
             I have worked with international clients from different countries like Dubai and the USA. I have built
             websites for different types of businesses and learned a lot from real projects.
@@ -295,11 +324,11 @@
             I have worked on many projects in web development. This includes business websites, online stores, and
             portfolio websites. Every project helped me improve my skills.
         </div>
-        <div class="content-card content-card3 animate-left">
+        <div class="content-card content-card3 animate-right">
             I want to share all my experience with my students in a simple way. My goal is to help them learn real
             skills and become able to work and earn online.
         </div>
-        <div class="content-card content-card4 animate-left">
+        <div class="content-card content-card4 animate-right">
             I have already taught many students web development. I guide them step by step and help them understand
             everything easily. Many of my students are now improving their skills and working on real projects.
         </div>
@@ -332,7 +361,8 @@
                         <h4>@★ ν𝐞𝔫σ𝐌м𝔢</h4>
                     </div>
                     <div class="card">
-                        <p>She not only teaches but also builds confidence in students. Her guidance helped me understand how to start freelancing and improve my skills.</p>
+                        <p>She not only teaches but also builds confidence in students. Her guidance helped me
+                            understand how to start freelancing and improve my skills.</p>
                         <h4>Usman Tariq</h4>
                     </div>
                     <div class="card">
@@ -387,12 +417,13 @@
 
     <section class="cert-cta-section">
 
-        <!-- LEFT (CERTIFICATE IMAGE) -->
+
         <div class="cert-box">
-            <img src="pictures/MJ_Certificate.png" alt="Certificate Example" class="cert-img">
+            <img src="pictures/MJ_Certificate.png" alt="Certificate Example" class="cert-img animate-left">
 
             <h2 class="animated_heading">Certificate of Completion</h2>
-            <p class="animate-left"> Certificate of Completion will be provided after successfully finishing the course.</p>
+            <p class="animate-left"> Certificate of Completion will be provided after successfully finishing the course.
+            </p>
         </div>
 
         <!-- RIGHT (CTA) -->
@@ -401,7 +432,7 @@
             <p class="animated_heading">Secure your seat before batch fills.</p>
 
             <a href="https://wa.me/923440398917?text=Hi%20Ma'am%2C%20I%20want%20to%20join%20your%20classes"
-                class="cta-btn" target="_blank">
+                class="cta-btn animate-right" target="_blank">
                 Enroll Now
             </a>
         </div>
@@ -440,11 +471,13 @@
 
     </footer>
 
+    <!-- <img src="pictures/cursor.png" class="custom-cursor" /> -->
 
 
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="script.js"></script>
 
 </body>
