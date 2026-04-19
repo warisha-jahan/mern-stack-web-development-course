@@ -98,7 +98,7 @@
     }
 
     #hero_section h1 {
-        font-size: 58px;
+        font-size: 38px !important;
     }
 
     /* COURSE GRID */
@@ -106,6 +106,7 @@
     #course-outline {
         /* padding: 30px 15px; */
         margin-top: 50px;
+        margin: 0 auto;
     }
 
 
@@ -124,7 +125,8 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
-        padding: 50px;
+        padding: 30px;
+         
       
       
       
@@ -138,7 +140,7 @@
 
     .course-box {
         transform: none !important;
-        width: 400px;
+        width: 300px;
         height: 200px;
         
     }
@@ -245,6 +247,10 @@
     /* TESTIMONIAL */
     .slider-wrapper {
         width: 100%;
+    }
+
+    .track{
+        padding: 20px;
     }
 
     .card {
