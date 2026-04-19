@@ -98,7 +98,7 @@
     }
 
     #hero_section h1 {
-        font-size: 38px !important;
+        font-size: 32px !important;
     }
 
     /* COURSE GRID */
@@ -133,14 +133,14 @@
     }
 
     #course-outline{
-        padding: 50px;
+        padding: 30px;
     }
 
 
 
     .course-box {
         transform: none !important;
-        width: 300px;
+        width: 350px;
         height: 200px;
         
     }
