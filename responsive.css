@@ -1,11 +1,17 @@
 @media (max-width: 768px) {
 
+    
+
     .hamburger {
         display: block;
     }
 
     .mobile-menu {
         display: block;
+    }
+
+    .logo img{
+        width: 50%;
     }
 
 
@@ -98,7 +104,7 @@
     /* COURSE GRID */
 
     #course-outline {
-        padding: 30px 15px;
+        /* padding: 30px 15px; */
         margin-top: 50px;
     }
 
@@ -117,15 +123,20 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 20px;
+        padding: 50px;
+      
+      
+      
     }
 
 
 
     .course-box {
         transform: none !important;
-        width: 400px; 
+        width: 400px;
         height: 200px;
+        
     }
 
     /* WHY SECTION */

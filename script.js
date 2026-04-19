@@ -204,3 +204,11 @@ hamburger.addEventListener("click", () => {
 closeMenu.addEventListener("click", () => {
   mobileMenu.classList.remove("active");
 });
+
+const mobileLinks = document.querySelectorAll(".mobile-nav a");
+
+mobileLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+  });
+});
