@@ -386,11 +386,13 @@ nav a {
     position: absolute;
     left: 20px;
     top: -10px;
+    font-size: 16px;
 }
 
 .content-element span {
-    font-size: 45px;
+    font-size: 25px;
     font-weight: bold;
+    color: #800080;
 }
 
 .right h2 {

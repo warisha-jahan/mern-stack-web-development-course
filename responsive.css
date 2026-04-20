@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
 
-    
+
 
     .hamburger {
         display: block;
@@ -10,7 +10,7 @@
         display: block;
     }
 
-    .logo img{
+    .logo img {
         width: 50%;
     }
 
@@ -126,13 +126,13 @@
         justify-content: center;
         gap: 20px;
         padding: 30px;
-         
-      
-      
-      
+
+
+
+
     }
 
-    #course-outline{
+    #course-outline {
         padding: 30px;
     }
 
@@ -142,7 +142,7 @@
         transform: none !important;
         width: 350px;
         height: 200px;
-        
+
     }
 
     /* WHY SECTION */
@@ -245,16 +245,31 @@
     }
 
     /* TESTIMONIAL */
+
+    .slider {
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+
     .slider-wrapper {
         width: 100%;
     }
 
-    .track{
+    .track {
+        display: flex;
+        gap: 20px;
+        width: max-content;
         padding: 20px;
     }
 
+    .slider::-webkit-scrollbar {
+        display: none;
+    }
+
     .card {
-        min-width: 100%;
+        min-width: 80%;
+        flex-shrink: 0;
     }
 
     /* CERT SECTION */
