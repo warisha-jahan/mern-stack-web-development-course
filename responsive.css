@@ -246,30 +246,22 @@
 
     /* TESTIMONIAL */
 
-    .slider {
-        overflow-x: auto;
-        scroll-behavior: smooth;
-        -webkit-overflow-scrolling: touch;
-    }
+    
 
     .slider-wrapper {
         width: 100%;
     }
 
     .track {
-        display: flex;
-        gap: 20px;
-        width: max-content;
+        
         padding: 20px;
     }
 
-    .slider::-webkit-scrollbar {
-        display: none;
-    }
+    
 
     .card {
-        min-width: 80%;
-        flex-shrink: 0;
+        min-width:100%;
+       
     }
 
     /* CERT SECTION */
